@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+    <title>Profie Arif Taufiq</title>
+    
+<!--
+Mini Profile Template
+https://templatemo.com/tm-530-mini-profile
+-->
+  </head>
+  <body>
+    <!-- Welcome Section -->
+    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/mini-profile-bg-01.jpg">
+      <div class="container-fluid tm-brand-container-outer">
+        <div class="row">
+          <div class="col-12">
+            <!-- Logo Area -->
+            <!-- Black transparent bg -->
+            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
+              <div class="tm-brand-container text-center">
+                <h1 class="tm-brand-name">Mini Profile</h1>
+                <p class="tm-brand-description mb-0">Nur Arif Taufiq</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="tm-bg-white-transparent tm-welcome-container">
+        <div class="container-fluid">
+          <div class="row h-100">
+            <!-- Welcome Text -->
+            <!-- White transparent bg -->
+            <div class="col-md-7 tm-welcome-left-col">
+              <div class="tm-welcome-left">
+                <h2 class="tm-welcome-title">Selamat Datang di Profile Arif</h2>
+                <p class="pb-0">
+                 Saya Nur Arif Taufiq, lulusan Teknik Informatika Universitas Adhirajasa Reswara Sanjaya tahun 2022. Memiliki pengalaman magang sebagai general administration di PT. Makmur Putra Regency, serta bekerja sebagai Guru Rekayasa Perangkat Lunak di SMK Pasundan Cijulang, dan bekerja sebagai Guide di CV.Baraja Bodyrafting. Saya memiliki pemahaman dalam berbagai bidang terkait Teknik Informatika. Saya memeiliki komunikasi yang kuat dan keterampilan interpersonal, dengan kemampuan yang ditunjukan untuk cepat belajar dan memeahami konsep baru.</p>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Welcome section -->
+
+   
+              <div class="tm-portfolio-description">
+                <h1 class="tm-text-green">
+                  Pengalaman Kerja
+                 </h1>
+                
+                
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-orange">
+                SMK PASUNDAN CIJULANG
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-orange">
+                  Guru Rekayasa Perangkat Lunak
+                  <span class="tm-title-small">(Januari 2023 - Sekarang)</span>
+                </h3>
+                <p class="mb-0">
+                 Bertanggung jawab memahami materi pelajaran dan merencanakan pelajaran. Memfasilitasi interaksi sosial dalam kelas. Merencanakan kegiatan yang mendorong perkembangan murid. Memiliki komunikasi yang kuat untuk membantu siswa belajar.
+                </p>
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-blue">
+                CV.Baraja Body Rafting
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-blue">
+                 Guide
+                  <span class="tm-title-small">(Juni 2016 - Sekarang</span>
+                </h3>
+                <p class="mb-0">
+                Bertanggung jawab menyambut wisatawan. Memandu dan menjelaskan informasi. Mengatur penjadwalan wisatawan.
+              </div>
+            </div>
+
+            <div class="tm-portfolio-item">
+              <div class="tm-portfolio-name text-white tm-bg-dark-gray">
+                PT.Makmur Putra Regency
+              </div>
+              <div class="tm-portfolio-description">
+                <h3 class="tm-text-dark-gray">
+                  General administration
+                  <span class="tm-title-small">
+                    (Maret 2021 - Juli 2021)
+                  </span>
+                </h3>
+                <p class="mb-0">
+                 Memantau pembayaran pembelian, mengirimkan faktur dan mengelola catatan keuangan terkait properti. Menyusun, mengatur dan memeliharadokumen legal terkait penyewaan dan operasional properti.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+        
+           
+              <div class="text-center">
+              
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row">
+          <footer class="col-12">
+         
+          </footer>
+        </div>
+      </div>
+      <!-- container -->
+    </div>
+    <!-- section -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script>
+      function detectMsBrowser() {
+        using_ms_browser =
+          navigator.appName == "Microsoft Internet Explorer" ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Edge") > -1) ||
+          (navigator.appName == "Netscape" &&
+            navigator.appVersion.indexOf("Trident") > -1);
+
+        if (using_ms_browser == true) {
+          alert(
+            "Please use Chrome or Firefox for the best browsing experience!"
+          );
+        }
+      }
+      function setBrandMarginTop() {
+        var bottomContainerHeight = $(".tm-welcome-container").height();
+
+        $(".tm-brand-container-outer").css({
+          "margin-top": -bottomContainerHeight + "px"
+        });
+      }
+
+      $(function() {
+        setBrandMarginTop();
+        detectMsBrowser();
+
+        // Handle window resize event
+        $(window).resize(function() {
+          setBrandMarginTop();
+        });
+      });
+    </script>
+  </body>
+</html>
